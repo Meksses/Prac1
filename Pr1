@@ -1,4 +1,4 @@
-class Raf:
+class Meksses:
     def __init__(self, name=None, surname=None, birth_year=None, manual_course=None):
         self.name = name
         self.surname = surname
@@ -30,9 +30,9 @@ class Raf:
         return [f"{student.name or 'Імʼя невідоме'} {student.surname or 'Прізвище невідоме'}" for student in students]
 
 
-Student1 = Raf("Діма", "Поліщук", 2008)
-Student2 = Raf("Максон", None, 2000)
-Student3 = Raf("Максим", "Оринчак", 2007, 2)
+Student1 = Meksses("Діма", "Поліщук", 2008)
+Student2 = Meksses("Максон", None, 2000)
+Student3 = Meksses("Максим", "Оринчак", 2007, 2)
 
 Students = [Student1, Student2]
 Names_list = Student1.get_names_list(Students)
