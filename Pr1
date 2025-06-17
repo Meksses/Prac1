@@ -30,7 +30,7 @@ class Meksses:
         return [f"{student.name or 'Імʼя невідоме'} {student.surname or 'Прізвище невідоме'}" for student in students]
 
 
-Student1 = Meksses( None, "Трамп", 1946)
+Student1 = Meksses( None, "Трамп", 2001)
 Student2 = Meksses("Максон", None, 2000)
 Student3 = Meksses("Максим", "Оринчак", 2007, 2)
 
